@@ -32,7 +32,7 @@ def Contacto(request):
 def dia_gato(request):
     return render(request, 'app_proyecto/dia_gato.html',{})
 def Formulario(request):
-    return render(request, 'app_proyecto/Formulario.html',{})
+    return render(request, 'app_proyecto/formulario.html',{})
 def hitman(request):
     return render(request, 'app_proyecto/hitman.html',{})
 def index(request):
